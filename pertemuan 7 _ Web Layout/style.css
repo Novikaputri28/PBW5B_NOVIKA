@@ -1,0 +1,107 @@
+/* Note: This example only works with Windows Insider Preview Builds 16237+ or the Fall Creators Update. */
+
+body {
+    font-family: segoe-ui_normal, Segoe UI, Segoe, Segoe WP, Helvetica Neue, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav section aside"
+        "footer footer footer";
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-columns: 15% 1fr 18%;
+    grid-gap: 5px;
+    height: 100vh;
+    margin: 10px;
+}
+
+header {
+    background: #3373fd;
+    grid-area: header;
+}
+
+nav {
+    background: #ff6edb;
+    grid-area: nav;
+}
+
+section {
+    background: #fffc58;
+    grid-area: section;
+}
+
+aside {
+    background: #ff6edb;
+    grid-area: aside;
+}
+
+footer {
+    background: #3373fd;
+    grid-area: footer;
+}
+
+header,
+nav,
+section,
+aside,
+footer {
+    padding: 5px;
+}
+
+.container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
