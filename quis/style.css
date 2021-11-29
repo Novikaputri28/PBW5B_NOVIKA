@@ -1,0 +1,44 @@
+    .dalem {
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        padding: 5px;
+    }
+
+    .kotak {
+        width: 80px;
+        padding: 10px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 0;
+        position: right;
+    }
+
+    .kotak1 {
+        width: 30px;
+        padding: 20px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 0;
+        position: right;
+    }
+
+
+    input.untukInput2 {
+        border-bottom: 3px solid rgb(0, 0, 0);
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        outline: none;
+    }
+
+    ol.a {
+        list-style-type: upper-alpha;
+
+    }
+
+    th {
+        text-align: right;
+    }
+
+
+    table {
+        width: 100%;
+    }
